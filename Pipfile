@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-dotenv = "*"
+beautifulsoup4 = "*"
+langchain-google-genai = "*"
+mcp = "*"
+langchain-mcp-adapters = "*"
+# Added the missing libraries below
+fastapi = "*"
+uvicorn = "*"
+langgraph = "*"
+aiolimiter = "*"
+gtts = "*"
+elevenlabs = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"
